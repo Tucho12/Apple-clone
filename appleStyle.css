@@ -1,0 +1,294 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* Header Styling */
+
+.header{
+    background-color: black;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    margin-top: 0%;
+}
+.header-list{
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 200px;
+}
+.list{
+    padding: 20px;
+}
+ul{
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.header-links ul li a:hover{
+    color: blue;
+    font-size: 18px;
+}
+ul li a img{
+    width: 18px;
+    height: auto;
+}
+.cart{
+    width: 18px;
+    height: auto;
+}
+.logo:hover{
+    width: 20px;
+    height: auto;
+
+}
+/* Section one Styling */
+
+.sectionOne{
+    background-color: #fafafa;
+    text-align: center;
+    padding: 85px;
+}
+.model{
+    font-size: 20px;
+}
+.title{
+    font-weight: 700;
+    font-size: 56px;
+}
+.description{
+    font-size: 28px;
+}
+.links{
+     padding: 15px 0;
+}
+
+.links ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.links ul li a {
+    color: #06c;
+    text-decoration: none;
+}
+.links ul li a:hover {
+    color: #000
+}
+.links ul li a:after {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    /* content: "\f105"; */
+    padding-left: 10px;
+}
+/* Styling Section two */
+
+.SectionTwo{
+    text-align: center;
+    color: #fff;
+    background-image: url(Images/iphone11-pro-bg.jpg);
+    height: 580px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 20px;
+}
+.price {
+    color: #86868b;
+    font-size: 0.85em;
+}
+/* Styling Section three */
+
+.sectioThree{
+    text-align: center;
+    height: 580px;
+    background-image: url(Images/iphone11-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 20px;
+}
+
+/* Styling Section four */
+
+.sectionFour{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+.watch,
+.card{
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: 48.5%;
+        height: 580px;
+        padding-top: 54px;
+}
+.watch{
+background-image: url(Images/watch-series-5.jpg);
+margin: 1% 0.5% 0% 1%;
+}
+.card{
+background-image: url(Images/apple-card.jpg);
+margin: 1% 1% 0% 0.5%;
+}
+.discription{
+    color: #000;
+    max-width: 430px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+/* Styling Section five */
+
+.sectionFive{
+display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+.tv,
+.airPod {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 48.5%;
+    height: 580px;
+    padding-top: 54px;
+}
+.tv{
+    background-image: url(Images/apple-tv-background.jpg);
+}
+.airPod{
+    background-image: url(Images/air-pods.jpg);
+    background-position: bottom;
+    color: #fff;
+    background-size: initial;
+    background-color: #000;
+}
+.appletv{
+font-size: 40px;
+font-weight: bold;
+}
+.servant{
+/* padding: 180px 0 200px; */
+padding-top: 180px;
+padding-bottom: 200px;
+}
+.tvlink a{
+text-decoration: none;
+font-size: 0.85em;
+color: #06c;
+}
+
+/* Styling Section Six */
+
+.sectionSix{
+display: flex;
+    justify-content: space-between;
+    -webkit-box-pack: justify;
+}
+.macPro,
+.iPad{
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        width: 48.5%;
+        height: 580px;
+        padding-top: 54px;
+}
+.macPro{
+    background-size: initial;
+    background-color: #fafafa;
+    background-position: bottom;
+    background-image: url(Images/macbook-pro.jpg);
+    
+}
+.iPad{
+    background-image: url(Images/new-ipad.jpg);
+}
+
+/* Footer Styling */
+
+.paragraph{
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 12px;
+}
+.footerlinks{
+    display: flex;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 10px;
+}
+.footerlinks ul li a{
+    color: #000;
+    font-size: smaller;
+}
+.eachlinks{
+    padding: 60px;
+}
+.eachlinks ul li a:hover{
+    text-decoration: underline;
+}
+h3{
+    font-size: small;
+}
+.morefoot{
+    padding-left: 250px;
+    padding-right: 200px;
+}
+.finalfoot{
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    justify-content: space-between;
+}
+#final{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.finalfoot ul li a{
+    color: #000;
+    font-size: smaller;
+
+}
+
+/* footer-country {
+    display: inline-block;
+} */
+
+.flag{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.country {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.country a {
+    text-decoration: none;
+    color: #515154;
+}
+
+.country a:hover {
+    text-decoration: underline;
+
+}
+
+
